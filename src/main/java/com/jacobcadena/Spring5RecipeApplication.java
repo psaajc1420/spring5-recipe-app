@@ -1,12 +1,12 @@
-package com.jacobcadena.demo;
+package com.jacobcadena;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class Spring5RecipeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(Spring5RecipeApplication.class, args);
     }
 }
