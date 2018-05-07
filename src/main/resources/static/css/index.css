@@ -1,0 +1,15 @@
+body, html {
+    margin: 20px;
+    font-family: "Times New Roman", Times;
+}
+
+.table {
+    max-width: 500px;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+#title {
+    justify-content: center;
+    text-align: center;
+}

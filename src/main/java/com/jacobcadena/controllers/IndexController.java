@@ -1,10 +1,12 @@
 package com.jacobcadena.controllers;
 
 import com.jacobcadena.services.RecipeService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@Slf4j
 @Controller
 public class IndexController {
 
@@ -18,6 +20,7 @@ public class IndexController {
     public String getIndexPage(Model model) {
 
         model.addAttribute("recipes", recipeService.getRecipes());
+        log.debug("Getting index page");
         return "index";
     }
 }
